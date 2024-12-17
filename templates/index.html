@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endoscopy Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header, footer {
+            background: linear-gradient(90deg, #4CAF50, #008CBA);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1, footer p {
+            margin: 0;
+        }
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+        .social-links {
+            margin-top: 10px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+        form {
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            max-width: 400px;
+        }
+        form label {
+            font-size: 18px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        form input {
+            margin: 10px 0;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Endoscopy Image Analysis</h1>
+    </header>
+    <main>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <label for="images">Upload Endoscopy Images:</label>
+            <input type="file" name="images" id="images" accept="image/*" multiple required>
+            <button type="submit">Analyze Images</button>
+        </form>
+    </main>
+    <footer>
+        <p>Phone: +966539723031</p>
+        <div class="social-links">
+            <a href="https://www.youtube.com/channel/UCyB_7yHs7y8u9rONDSXgkCg/join" target="_blank">Channel Membership</a>
+            <a href="https://www.facebook.com/Pyresearch" target="_blank">Facebook</a>
+            <a href="https://www.youtube.com/c/Pyresearch" target="_blank">YouTube</a>
+            <a href="https://medium.com/@Pyresearch" target="_blank">Medium</a>
+            <a href="https://www.instagram.com/pyresearch/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/company/Pyresearch" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/Noorkhokhar10" target="_blank">Twitter</a>
+            <a href="https://discord.com/invite/BHxGBn98" target="_blank">Discord</a>
+            <a href="https://github.com/Pyresearch" target="_blank">GitHub</a>
+            <a href="https://www.quora.com/profile/Pyresearch" target="_blank">Quora</a>
+            <a href="https://github.com/noorkhokhar99" target="_blank">GitHub (Personal)</a>
+        </div>
+    </footer>
+</body>
+</html>
